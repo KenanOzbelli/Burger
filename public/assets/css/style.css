@@ -1,0 +1,49 @@
+body{
+    background-color: orange;
+    margin: 0;
+}
+.title{
+    background-color: yellowgreen;
+    border: 1px solid;
+    padding: .5rem;
+    box-shadow: .25rem .75rem;
+    text-align: center;
+    border-radius: .5rem;
+}
+ol{
+    border: .15rem solid black;
+    margin: 2rem 0 0 0;
+    text-align: center;
+    padding: 2rem;
+}
+.header{
+    background-color: yellow;
+    padding: 1rem;
+    border: .1rem solid;
+    margin: 0 auto;
+    border-radius: 0 0 .5rem .5rem;
+}
+h1,h2,form,.img{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#addburger{
+   border-bottom: .1rem solid lightyellow;
+   padding: .5rem;
+   margin: .25rem 2rem 1rem 2rem;
+
+}
+button{
+    background-color: cornflowerblue;
+    border-radius: .25rem;
+    color:white;
+ 
+    border-style: none;
+    
+}
+button:hover{
+    border: 1px solid whitesmoke;
+    box-shadow: .1rem .1rem;
+    transition: ease-in;
+}

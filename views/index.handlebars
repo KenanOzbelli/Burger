@@ -1,0 +1,46 @@
+<h1 class ="header">WELCOME TO GOOD BURGER!</h1>
+
+<div class="img">
+<img src="assets\img\burger.png" height="200" width="200">
+</div>
+
+<h2>Add a Burger to Eat</h2>
+<form id="addburger" class="button-size">
+    <input id="textName" type="text" name="burger"/>
+    <button id="newBurger" type="submit">Save Burger</button>
+</form>
+
+<div class="container">
+    <div class='row'>
+        <div class='col-sm-6'>
+            <h3 class="title">EAT-DA-Burger</h3>
+            <ol>
+                {{#each burgers}}
+                {{#unless devoured}}
+                <li>
+                    <h4>
+                         {{burger_name}}
+                    </h4>
+
+                    <button data-id ="{{id}}" id="devour">DEVOUR!</button>
+                </li>
+                {{/unless}}
+                {{/each}}
+            </ol>
+        </div>
+        <div class='col-sm-6'>
+            <h3 class="title">Devoured</h3>
+            <ol>
+                {{#each burgers}}
+                {{#if devoured}}
+                <li>
+                    <h4>
+                     {{burger_name}}
+                    </h4>
+                </li>
+                {{/if}}
+                {{/each}}
+            </ol>
+        </div>
+    </div>
+</div>
