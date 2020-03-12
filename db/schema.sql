@@ -2,9 +2,9 @@ CREATE DATABASE burgers_db;
 
 USE burgers_db;
 
-CREATE TABLE burgers {
-    id INT AUTO_INCREMENT 
-    burger_name VARCHAR(255)
-    devoured TINYINT(1)
+CREATE TABLE burgers (
+    id INT AUTO_INCREMENT, 
+    burger_name VARCHAR(255),
+    devoured TINYINT(1),
     PRIMARY KEY (id)
-}
+)
