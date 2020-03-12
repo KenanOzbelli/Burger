@@ -6,4 +6,4 @@ This app is using the express-handlesbars methods for this program I have develo
 
 ### Delployed link: https://still-hamlet-60653.herokuapp.com/
 
-![github img ](.\assets\img\screenshot.png)
+![github img ](./public/assets/img/screenshot.png)
